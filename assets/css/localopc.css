@@ -1,0 +1,27 @@
+.home-circle {
+	max-height: 124px;
+}
+
+.usa-hero{
+  background-image:url("/assets/images/hero.jpg");
+}
+
+.usa-hero a {
+	color: #d9e8f6;
+}
+
+.usa-hero a .hover {
+	color: #005ea2;
+}
+
+.usa-hero a .visited {
+	color: #d9e8f6;
+}
+
+.footer-circle {
+	max-height: 75px;
+}
+
+.icon-pdf {
+	max-height: 1rem;
+}

@@ -1,0 +1,1 @@
+<script src="<?php echo $path;?>assets/uswds/js/uswds.min.js"></script>

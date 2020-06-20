@@ -1,0 +1,23 @@
+IndexIgnore *
+ErrorDocument 400 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 451 /error.php
+ErrorDocument 500 /error.php
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Webpage rewrites
+RewriteRule ^/?$  index.php
+RewriteRule ^new-contracts/?$ new-contracts.php
+RewriteRule ^register-to-vote/?$ register-to-vote.php
+RewriteRule ^report-all-cops/?$ report-all-cops.php
+RewriteRule ^resources/?$ resources.php
+RewriteRule ^support/?$ support.php
+RewriteRule ^contact/?$ contact.php
+RewriteRule ^join/?$ join.php
+RewriteRule ^error/?$ error.php
