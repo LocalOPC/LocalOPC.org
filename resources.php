@@ -10,7 +10,7 @@ date_default_timezone_set('America/Detroit');
     <?php
       include("assets/includes/meta.inc");
     ?>
-    <title>Register to vote and be heard</title>
+    <title>Resources to succeed</title>
     <?php
       include("assets/includes/css.inc");
     ?>
